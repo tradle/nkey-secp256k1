@@ -1,0 +1,18 @@
+{
+  "name": "nkey-secp256k1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Mark Vayngrib <mark@tradle.io> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "dependencies": {
+    "nkey": "tradle/nkey",
+    "secp256k1": "^3.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
