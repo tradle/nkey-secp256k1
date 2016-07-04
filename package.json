@@ -1,7 +1,7 @@
 {
   "name": "nkey-secp256k1",
   "version": "1.0.0",
-  "description": "",
+  "description": "nkey API for elliptic curve keys on curve secp256k1",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -9,7 +9,7 @@
   "author": "Mark Vayngrib <mark@tradle.io> (http://github.com/mvayngrib)",
   "license": "MIT",
   "dependencies": {
-    "nkey": "tradle/nkey",
+    "nkey": "^1.0.0",
     "secp256k1": "^3.1.0"
   },
   "devDependencies": {
