@@ -5,11 +5,13 @@ const secp256k1 = require('secp256k1')
 const nkey = require('nkey')
 const type = 'ec'
 
-module.exports = nkey.wrap({
+const impl = nkey.wrap({
   type,
   genSync,
   fromJSON
 })
+
+module.exports = impl
 
 function genSync () {
   let priv
@@ -17,7 +19,7 @@ function genSync () {
     priv = crypto.randomBytes(32)
   } while (!secp256k1.privateKeyVerify(priv))
 
-  return fromJSON({ priv })
+  return impl.fromJSON({ priv })
 }
 
 function fromJSON (opts) {
