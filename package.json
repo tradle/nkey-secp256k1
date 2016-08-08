@@ -1,6 +1,6 @@
 {
   "name": "nkey-secp256k1",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "nkey API for elliptic curve keys on curve secp256k1",
   "main": "index.js",
   "scripts": {
