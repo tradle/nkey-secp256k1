@@ -9,7 +9,7 @@
   "author": "Mark Vayngrib <mark@tradle.io> (http://github.com/mvayngrib)",
   "license": "MIT",
   "dependencies": {
-    "nkey": "^1.1.0",
+    "nkey": "^2.0.0",
     "secp256k1": "^3.1.0"
   },
   "devDependencies": {
